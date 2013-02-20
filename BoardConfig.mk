@@ -39,6 +39,7 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I727,skyrocket
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogenmod_skyrocket_defconfig
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3/bin/arm-eabi-
 
 # cat /proc/emmc
 #dev:        size     erasesize name

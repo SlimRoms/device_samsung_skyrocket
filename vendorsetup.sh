@@ -1,2 +1,2 @@
-add_lunch_combo aokp_skyrocket-userdebug
+add_lunch_combo cm_skyrocket-eng
 
