@@ -12,14 +12,14 @@ $(call inherit-product, vendor/slim/config/gsm.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common slim stuff.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device settings
 $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
-# Inherit Celox
-$(call inherit-product, device/samsung/celox-common/celox-common.mk)
+# Inherit torch settings
+$(call inherit-product, vendor/slim/config/common_ledflash.mk)
 
 #copy boot animation
 PRODUCT_COPY_FILES += \
