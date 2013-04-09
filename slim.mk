@@ -22,10 +22,6 @@ $(call inherit-product, vendor/slim/config/common_ledflash.mk)
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# Copy 00check
-PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check
-
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-I727 TARGET_DEVICE=SGH-I727 BUILD_FINGERPRINT="samsung/SGH-I727/SGH-I727:4.1.2/IMM76D/UCLI3:user/release-keys" PRIVATE_BUILD_DESC="SGH-I727-user 4.1.2 IMM76D UCLI3 release-keys"
 
 PRODUCT_NAME := slim_skyrocket
