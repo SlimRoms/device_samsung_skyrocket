@@ -28,6 +28,11 @@
     "repository": "SlimRoms/hardware_qcom_display-caf",
     "target_path": "hardware/qcom/display-caf",
     "branch": "jb4.2"
+  },
+  {
+    "repository": "SlimRoms/hardware_qcom_audio-caf",
+    "target_path": "hardware/qcom/audio-caf",
+    "branch": "jb4.2"
   }
 ]
 
