@@ -30,6 +30,3 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
-
-# Inherit from msm8660-common
-$(call inherit-product, device/samsung/msm8660-common/msm8660.mk)
