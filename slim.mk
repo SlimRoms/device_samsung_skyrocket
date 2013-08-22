@@ -3,6 +3,10 @@ $(call inherit-product, device/samsung/skyrocket/full_skyrocket.mk)
 # Release name
 PRODUCT_RELEASE_NAME := skyrocket
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 480
+
 # Inherit some common slim stuff.
 $(call inherit-product, vendor/slim/config/gsm.mk)
 
@@ -17,10 +21,6 @@ $(call inherit-product, vendor/slim/config/common_sgs.mk)
 
 # Inherit torch settings
 $(call inherit-product, vendor/slim/config/common_ledflash.mk)
-
-# Copy boot animation
-PRODUCT_COPY_FILES += \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_NAME := slim_skyrocket
 PRODUCT_DEVICE := skyrocket
