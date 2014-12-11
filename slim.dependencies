@@ -1,27 +1,12 @@
 [
   {
-    "repository": "SlimRoms/device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common",
-    "branch": "lp5.0"
-  },
-  {
-    "repository": "SlimRoms/device_samsung_msm8660-common",
-    "target_path": "device/samsung/msm8660-common",
-    "branch": "lp5.0"
-  },
-  {
-    "repository": "SlimRoms/device_samsung_celox-common",
-    "target_path": "device/samsung/celox-common",
-    "branch": "lp5.0"
+    "repository": "dexter93/hardware_qcom_display-caf",
+    "target_path": "hardware/qcom/display-caf/msm8960",
+    "branch": "lp5.0-caf-8960"
   },
   {
     "repository": "SlimRoms/hardware_qcom_audio-caf",
     "target_path": "hardware/qcom/audio-caf/msm8960",
-    "branch": "lp5.0-caf-8960"
-  },
-  {
-    "repository": "dexter93/hardware_qcom_display-caf",
-    "target_path": "hardware/qcom/display-caf/msm8960",
     "branch": "lp5.0-caf-8960"
   },
   {
