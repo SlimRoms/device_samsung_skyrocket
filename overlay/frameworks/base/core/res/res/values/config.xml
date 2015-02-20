@@ -44,8 +44,8 @@
          This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>40</item>
-        <item>80</item>
-        <item>130</item>
+        <item>100</item>
+        <item>150</item>
         <item>210</item>
         <item>255</item>
     </integer-array>
