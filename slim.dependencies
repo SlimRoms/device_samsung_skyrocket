@@ -15,7 +15,7 @@
     "branch": "lp5.1"
   },
   {
-    "repository": "SlimRoms/kernel_samsung_msm8660-common",
+    "repository": "SlimRoms/kernel_samsung_msm8660",
     "target_path": "kernel/samsung/msm8660",
     "branch": "lp5.1"
   }
