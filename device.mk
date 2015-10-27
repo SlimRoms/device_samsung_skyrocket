@@ -20,19 +20,9 @@ $(call inherit-product-if-exists, vendor/samsung/skyrocket/skyrocket-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# F2FS
-PRODUCT_PACKAGES += \
-    mkfs.f2fs \
-    fsck.f2fs \
-    fibmap.f2fs
-
 # Ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc
-
-# Bluetooth
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
 
 # Inherit from celox-common
 $(call inherit-product, device/samsung/celox-common/celox-common.mk)
